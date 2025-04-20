@@ -35,7 +35,7 @@ void setup()
     // To go back to the default script, use this:
     //eliza.readDefaultScript();
   
-    font = loadFont("Rockwell-24.vlw");
+    font = createFont("Rockwell", 24, true);
     textFont(font);
 
     printElizaIntro();

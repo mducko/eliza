@@ -35,6 +35,18 @@ To go back to the default script that is loaded when Eliza is initialized, call 
 For detailed instructions on how to modify the script file that determines Eliza's "behavior", read the following notes by Charles Hayden:  
 http://chayden.net/eliza/instructions.txt
 
+ANDROID DEPLOYMENT
+
+To deploy the Eliza library as an Android app, follow these steps:
+
+1. Ensure you have Android Studio installed.
+2. Create a new Android project in Android Studio.
+3. Copy the `src/codeanticode/eliza` directory into the `app/src/main/java` directory of your Android project.
+4. Add the `AndroidManifest.xml` and `build.gradle` files provided in this repository to your Android project.
+5. Modify the `examples/ElizaChat/ElizaChat.pde` file to be compatible with Android.
+6. Add necessary Android dependencies in `build.gradle`.
+7. Build and run the app on an Android device or emulator.
+
 FURTHER REFERENCES
 
 1) Wikipedia article about Eliza: http://en.wikipedia.org/wiki/ELIZA
